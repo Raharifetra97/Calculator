@@ -25,7 +25,7 @@ var add = document.getElementById('add');
 // Variable pour suivre si un calcul a été effectué
 var calculEffectue = false;
 
-// Désactiver les événements de clavier
+// Désactiver les événements de clavier pour que l'utilisateur n'utilise pas du clavier mais juste le bouton du calculatrice
 result.addEventListener('keydown', (event) => {
     event.preventDefault();
 });
